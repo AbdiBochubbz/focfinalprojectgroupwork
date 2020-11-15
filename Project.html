@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>Group WepPage</title>
+    <meta charset="UTF-8">
+    <link rel= "stylesheet" href="style.css">
+</head>
+<body>
+
+   <div class="wrapper">
+        
+       <div class="centre">
+           <h2><div id="mainbox"onclick="openFunction()">&#9776; Open</div></h1>
+       </div>
+       
+
+       <nav class="navbar">
+           <ul>
+            <li><a href="Course.html">Course</a></li>
+            <li><a href="Project.html">Project</a></li>
+            <li><a href="Concept.html">Concept</a></li>
+            <li><a href="Database.html">Database</a></li>
+            <li><a href="Documentation.html">Documentation</a></li>
+            <li><a href="DevTeam.html">Dev Team</a></li>
+           </ul>
+       </nav>
+
+       <div id="particles-js">
+
+       <div id="mainbox"onclick="openFunction()">&#9776; Open</div>
+       <div id="menu" class="sidemenu">
+           <a href="#">Student 1</a>
+           <a href="#">Student 2</a>
+           <a href="#">Student 3</a>
+           <a href="#">Student 4</a>
+           <a href="#">Student 5</a>
+           <a href="#">Student 6</a>
+           <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>
+       </div>
+
+        <script type="text/javascript" src="particles.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+        </div>
+
+       <script type="text/javascript">
+
+           function openFunction()
+           {
+               document.getElementById("menu").style.width="300px";
+               document.getElementById("mainbox").style.marginLeft="300px";
+               document.getElementById("mainbox").innerHTML="Click on cross Element and Close Menu";
+           }
+           function closeFunction()
+           {
+               document.getElementById("menu").style.width="0px";
+               document.getElementById("mainbox").style.marginLeft="0px";
+               document.getElementById("mainbox").innerHTML="&#9776; Open";
+           }
+
+           
+       </script>
+        
+   </div>
+
+   
+    
+</body>
+</html>

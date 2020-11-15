@@ -1,0 +1,186 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#particles-js
+{
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.wrapper
+{
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.navbar
+{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.navbar ul
+{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li
+{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: sans-serif;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover
+{
+    background: red;
+    border-radius: 2px;
+}
+
+.wrapper .centre
+{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.centre h1
+{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.centre h2
+{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.centre .buttons
+{
+    margin: 35px 280px;
+    text-align: center;
+}
+
+.buttons button
+{
+   position: relative;
+   display: inline-block;
+   padding: 15px 30px;
+   color: #2196f3;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   text-decoration: none;
+   font-size: 24px;
+   overflow: hidden;
+   transition: 2s;
+}
+
+.buttons .btn
+{
+    top: 0;
+    width: 100%;
+    background: linear-gradient(90deg, transparent, #2196f3);
+}
+
+.buttons button:hover
+{
+   color: #255784;
+   background: #2196f3;
+   box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+   transition-delay: 0.1s;
+}
+
+.buttons li
+{
+    list-style: none;
+}
+
+.mainbox
+{
+    font-size: 24px;
+    cursor: pointer;
+    transition: all .6s;
+    background-color: grey;
+}
+
+
+
+.sidemenu
+{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: grey;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+    transition: all .5s;
+}
+
+.sidemenu a
+{
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+
+.sidemenu a:hover
+{
+    color:white;
+}
+
+.sidemenu .closebtn
+{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 32px;
+}
+
+.centre h3
+{
+    font-size: 25px;
+    color:  white;
+}
